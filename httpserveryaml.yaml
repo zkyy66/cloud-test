@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: httpserver-deploy
   labels:
-    app: nginx
+    app: http-server
 spec:
   replicas: 3
   selector:
